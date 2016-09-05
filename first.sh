@@ -17,7 +17,6 @@ echo "alias reloadbash=\". ~/.bashrc\"" >> ~/.bashrc
 # git aliases
 echo "alias gs=\"git status\"" >> ~/.bashrc
 echo "alias gc=\"git clone\"" >> ~/.bashrc
-echo "alias gcb=\"git clone\"" >> ~/.bashrc
 echo "alias gd=\"git diff\"" >> ~/.bashrc
 echo "alias gl=\"git log\"" >> ~/.bashrc
 echo "alias gp=\"git push\"" >> ~/.bashrc
