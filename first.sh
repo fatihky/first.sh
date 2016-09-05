@@ -17,6 +17,7 @@ echo "alias reloadbash=\". ~/.bashrc\"" >> ~/.bashrc
 # git aliases
 echo "alias gs=\"git status\"" >> ~/.bashrc
 echo "alias gc=\"git clone\"" >> ~/.bashrc
+echo "alias gcb=\"git clone\"" >> ~/.bashrc
 echo "alias gd=\"git diff\"" >> ~/.bashrc
 echo "alias gl=\"git log\"" >> ~/.bashrc
 echo "alias gp=\"git push\"" >> ~/.bashrc
@@ -124,3 +125,12 @@ echo "git commit -m \"\$1\"" >> push.sh
 echo "git push -u origin master" >> push.sh
 chmod +x push.sh
 mv push.sh /usr/bin
+
+# git clone github/bitbucket
+echo '#!/bin/bash' >> /usr/bin/gcg
+echo "git clone git@github.com:\$1" >> /usr/bin/gcg
+chmod +x /usr/bin/gcg
+
+echo '#!/bin/bash' >> /usr/bin/gcb
+echo "git clone git@bitbucket.org:\$1" >> /usr/bin/gcb
+chmod +x /usr/bin/gcb
