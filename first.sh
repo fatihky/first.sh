@@ -8,6 +8,8 @@ yes | apt-get install iotop ncdu virtualenv default-jdk;
 echo "" >> ~/.bashrc
 echo "export NODE_PATH=/opt/node" >> ~/.bashrc;
 echo "export PATH=\"\$PATH:\$NODE_PATH/bin\"" >> ~/.bashrc;
+echo "export GOROOT=/opt/go" >> ~/.bashrc;
+echo "export GOPATH=/root/go" >> ~/.bashrc;
 
 # aliases
 # utility aliases
@@ -43,6 +45,13 @@ yes | apt-get install php5.6;
 yes | apt-get install php5.6-fpm php5.6-mbstring php5.6-mcrypt php5.6-mysql php5.6-xml php-uuid;
 yes | apt-get install php-redis php-solr php-memcached php-memcache php-libsodium php-yaml;
 yes | apt-get install php-imagick php-gmagick php-gearman php-msgpack php-oauth php-uploadprogress;
+
+# install go
+cd /opt
+rm -rf tar xf go1.7.linux-amd64.tar.gz
+wget https://storage.googleapis.com/golang/go1.7.linux-amd64.tar.gz
+tar xf go1.7.linux-amd64.tar.gz
+rm -rf go1.7.linux-amd64.tar.gz
 
 # install apache maven
 cd /opt
