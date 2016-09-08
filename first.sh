@@ -2,7 +2,7 @@ apt-get update;
 yes | apt-get install git htop cmake automake libtool g++ gcc curl telnet;
 yes | apt-get install libev-dev libz-dev libssl-dev pkg-config valgrind;
 yes | apt-get install nginx-full mysql-server software-properties-common;
-yes | apt-get install iotop ncdu virtualenv default-jdk llvm;
+yes | apt-get install iotop ncdu virtualenv default-jdk llvm libncurses-dev;
 
 # set path
 echo "" >> ~/.bashrc
