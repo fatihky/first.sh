@@ -3,7 +3,7 @@ yes | apt-get install git htop cmake automake libtool g++ gcc curl telnet;
 yes | apt-get install libev-dev libz-dev libssl-dev pkg-config valgrind;
 yes | apt-get install nginx-full mysql-server software-properties-common;
 yes | apt-get install iotop ncdu virtualenv default-jdk llvm libncurses-dev;
-yes | apt-get install libboost-all-dev;
+yes | apt-get install libboost-all-dev libc6-dev-i386;
 
 # set path
 echo "" >> ~/.bashrc
