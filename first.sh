@@ -15,6 +15,9 @@ echo "export GOPATH=/root/go" >> ~/.bashrc;
 # aliases
 # utility aliases
 echo "alias reloadbash=\". ~/.bashrc\"" >> ~/.bashrc
+# apt aliases
+echo "alias ainstall=\"apt-get install\"" >> ~/.bashrc
+echo "alias asearch=\"apt-cache search\"" >> ~/.bashrc
 # git aliases
 echo "alias gs=\"git status\"" >> ~/.bashrc
 echo "alias gc=\"git clone\"" >> ~/.bashrc
