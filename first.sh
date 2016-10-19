@@ -15,6 +15,8 @@ echo "export GOPATH=/root/go" >> ~/.bashrc;
 # aliases
 # utility aliases
 echo "alias reloadbash=\". ~/.bashrc\"" >> ~/.bashrc
+echo "alias rebuildebug=\"cmake -DCMAKE_BUILD_TYPE=Debug ..; make\"" >> ~/.bashrc
+echo "alias rebuilrelease=\"cmake -DCMAKE_BUILD_TYPE=Release ..; make\"" >> ~/.bashrc
 # apt aliases
 echo "alias ainstall=\"apt-get install\"" >> ~/.bashrc
 echo "alias asearch=\"apt-cache search\"" >> ~/.bashrc
