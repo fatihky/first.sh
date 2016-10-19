@@ -23,6 +23,7 @@ echo "alias gs=\"git status\"" >> ~/.bashrc
 echo "alias gc=\"git clone\"" >> ~/.bashrc
 echo "alias gd=\"git diff\"" >> ~/.bashrc
 echo "alias gl=\"git log\"" >> ~/.bashrc
+echo "alias glo=\"git log --oneline --decorate\"" >> ~/.bashrc
 echo "alias gp=\"git push\"" >> ~/.bashrc
 echo "alias gcm=\"git add --all . && git commit -m \"\$1\"\"" >> ~/.bashrc
 # npm aliases
