@@ -4,6 +4,7 @@ yes | apt-get install libev-dev libz-dev libssl-dev pkg-config valgrind;
 yes | apt-get install nginx-full mysql-server software-properties-common;
 yes | apt-get install iotop ncdu virtualenv default-jdk llvm libncurses-dev;
 yes | apt-get install libboost-all-dev libc6-dev-i386 libev=dev;
+yes | apt-get install xvfb libgtk2.0-0 libXtst-dev libXss-dev libgconf2-dev libnss3-dev libasound-dev;
 
 # set path
 echo "" >> ~/.bashrc
