@@ -22,6 +22,7 @@ echo "alias rebuilrelease=\"cmake -DCMAKE_BUILD_TYPE=Release ..; make\"" >> ~/.b
 echo "alias ainstall=\"apt-get install\"" >> ~/.bashrc
 echo "alias asearch=\"apt-cache search\"" >> ~/.bashrc
 # git aliases
+echo "alias gb=\"git branch\"" >> ~/.bashrc
 echo "alias gs=\"git status\"" >> ~/.bashrc
 echo "alias gc=\"git clone\"" >> ~/.bashrc
 echo "alias gd=\"git diff\"" >> ~/.bashrc
