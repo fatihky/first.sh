@@ -38,11 +38,12 @@ source ~/.bashrc;
 
 cd /opt;
 
-rm -rf node-v6.5.0-linux-x64.tar.gz
+nodever="v6.5.0"
+rm -rf node-$nodever-linux-x64.tar.gz
 rm -rf node
-wget --no-check-certificate https://nodejs.org/dist/v6.5.0/node-v6.5.0-linux-x64.tar.gz
-tar xf node-v6.5.0-linux-x64.tar.gz
-mv node-v6.5.0-linux-x64 node
+wget --no-check-certificate https://nodejs.org/dist/$nodever/node-$nodever-linux-x64.tar.gz
+tar xf node-$nodever-linux-x64.tar.gz
+mv node-$nodever-linux-x64 node
 source ~/.bashrc;
 # bu olmazsa npm i vs hata veriyor. npm <3 phen
 chown -R root /opt/
