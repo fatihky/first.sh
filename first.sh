@@ -38,7 +38,7 @@ source ~/.bashrc;
 
 cd /opt;
 
-nodever="v6.5.0"
+nodever="v7.2.1"
 rm -rf node-$nodever-linux-x64.tar.gz
 rm -rf node
 wget --no-check-certificate https://nodejs.org/dist/$nodever/node-$nodever-linux-x64.tar.gz
