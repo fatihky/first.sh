@@ -48,7 +48,7 @@ mv node-$nodever-linux-x64 node
 source ~/.bashrc;
 # bu olmazsa npm i vs hata veriyor. npm <3 phen
 chown -R root /opt/
-npm i -g pm2
+npm i -g pm2 nodemon forever
 
 # install php
 yes | add-apt-repository ppa:ondrej/php;
