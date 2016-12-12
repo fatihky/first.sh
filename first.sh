@@ -1,3 +1,5 @@
+# copy the file contents. and run:
+# nano first.sh; chmod +x first.sh; ./first.sh
 apt-get update;
 yes | apt-get install git htop cmake automake libtool g++ gcc curl telnet;
 yes | apt-get install libev-dev libz-dev libssl-dev pkg-config valgrind;
